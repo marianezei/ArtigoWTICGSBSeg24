@@ -15,7 +15,7 @@ Antes de rodar o arquivo em Bash deste repositório, siga estas instruções:
 - **Verifique as permissões de execução:** Certifique-se de que o arquivo tem permissão de execução. Você pode fazer isso com o comando <br> `chmod +x tpmTools_Concurrent.sh`.
 
 
-Abaixo segue as descrições de cada arquivo:
+**Descrições de cada arquivo e como executá-los:**
 
 - escalonador-concurrent.go : este script é a implementação do escalonador sugerido no artigo. Para executá-lo digite o comando <br>  ```go run escalonador-concurrent.go```.<br>
    Obs: o tempo inserido neste scritp não é necessário, o escalonador consegue lidar com qualquer volume de requisições.
