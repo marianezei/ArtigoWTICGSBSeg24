@@ -1,4 +1,4 @@
-# artigoTCC
+# Artigo WTICG SBSeg24
 Título: Melhorias no Processo de Armazenamento de Dados em TPM para Gerenciamento de Integridade <br>
 <br>
 Resumo: Alguns dispositivos eletrônicos possuem soluções nativas para garantir sua integridade, um exemplo disso é o TPM (Trusted Platform Module), um chip dedicado a segurança. Nas máquinas virtuais, um vTPM(Virtual Trusted Platform Module) pode ser encontrado, este, quando ancorado com o TPM, pode usufruir da robustez de segurança que o TPM possui. Entretanto existe um obstáculo nessa estratégia, e é onde surge o objetivo deste trabalho. O vTPM, ao gerar múltiplas requisições ao TPM, pode gerar uma sobrecarga no chip e, para solucionar isso, o trabalho propõe a implementação de um escalonador de requisições, onde irá agrupar múltiplas chamadas e enviar somente uma ao TPM.
