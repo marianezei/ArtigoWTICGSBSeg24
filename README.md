@@ -17,12 +17,12 @@ Antes de rodar o arquivo em Bash deste repositório, siga estas instruções:
 
 **Descrições de cada arquivo e como executá-los:**
 
-- escalonador-concurrent.go : este script é a implementação do escalonador sugerido no artigo. Para executá-lo digite o comando <br>  ```go run escalonador-concurrent.go```.<br>
-   Obs: o tempo inserido neste scritp não é necessário, o escalonador consegue lidar com qualquer volume de requisições.
+- escalonador-concurrent.go : este script é a implementação do gerenciador sugerido no artigo. Para executá-lo digite o comando <br>  ```go run escalonador-concurrent.go```.<br>
+   Obs: o tempo inserido neste scritp não é necessário, o gerenciador consegue lidar com qualquer volume de requisições.
   
-- gotpm.go : este script apenas realiza as operações no TPM, foi desenvolvido para provar que a implementação do Escalonador traz melhorias. <br> Para executá-lo, digite o comando ```go run gotpm.go```.
+- gotpm.go : este script apenas realiza as operações no TPM, foi desenvolvido para provar que a implementação do Gerenciador traz melhorias. <br> Para executá-lo, digite o comando ```go run gotpm.go```.
   
-- tpmTools_Concurrent.sh : este script foi implementado para a comparação do _tpm-tools_ com o escalonador utilizando _go-tpm_. <br> Para executá-lo ```./tpmTools_Concurrent.sh```.
+- tpmTools_Concurrent.sh : este script foi implementado para a comparação do _tpm-tools_ com o gerenciador utilizando _go-tpm_. <br> Para executá-lo ```./tpmTools_Concurrent.sh```.
 <br>
 
 Os demais arquivos de texto no repositório servem para a coleta de logs, leitura e escrita de funções, e um arquivo que é utilizado para a comparação do resultado obtido e o resultado esperado.
