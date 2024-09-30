@@ -17,7 +17,7 @@ Antes de rodar o arquivo em Bash deste repositório, siga estas instruções:
 
 **Descrições de cada arquivo e como executá-los:**
 
-- escalonador-concurrent.go : este script é a implementação do gerenciador sugerido no artigo. Para executá-lo digite o comando <br>  ```go run escalonador-concurrent.go```.<br>
+- gerenciador-concurrent.go : este script é a implementação do gerenciador sugerido no artigo. Para executá-lo digite o comando <br>  ```go run gerenciador-concurrent.go```.<br>
    Obs: o tempo inserido neste scritp não é necessário, o gerenciador consegue lidar com qualquer volume de requisições.
   
 - gotpm.go : este script apenas realiza as operações no TPM, foi desenvolvido para provar que a implementação do Gerenciador traz melhorias. <br> Para executá-lo, digite o comando ```go run gotpm.go```.
